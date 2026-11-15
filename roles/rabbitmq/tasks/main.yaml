@@ -25,4 +25,5 @@
       write_priv: ".*"
       read_priv: ".*"
       state: present
-      no_log: true
+  no_log: true
+  tags: user
