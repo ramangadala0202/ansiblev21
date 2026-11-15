@@ -1,5 +1,5 @@
 - name: provision infrastructure
-  hosts: "{{ component }}""
+  hosts: "{{ component }}"
   become: yes
   gather_facts: no
   roles:
